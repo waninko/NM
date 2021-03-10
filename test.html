@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEst</title>
+    <script src="nm2ninjas.json"></script>
+    <script src="test.js"></script>
+    
+    
+    <link rel="stylesheet" href="test.css">
+    <!-- <link rel=" href=""> -->
+</head>
+<body>
+        
+<div id="searchResults"></div>
+    <!-- <div id="test123"> -->
+        <div id="mainGrid" class="grid-container">
+            <div class="Chakra-cost"><b>Cost</b></div>
+            <div class="The-Cost">the cost</div>
+            <div class="Quaterable">is it Quaterable?</div>
+            <div class="yey">Yes or no </div>
+            <div class="onefoourth">Quaterable?</div>
+            <div class="neh">Yes or no</div>
+            <div class="stat-point-used">Stat points used </div>
+            <div class="numer-of-stats-used">how many points used</div>
+            <div class="ninja-1">Ninja1</div>
+            <div class="lvl"><b>LVL</b></div>
+            <div class="seal">seal</div>
+            <div class="item1 Item">Item1</div>
+            <div class="item2 Item">Item2</div>
+            <div class="item3 Item">Item3</div>
+            <div class="item-1">item used</div>
+            <div class="item-2">item used</div>
+            <div class="item-3">item used</div>
+            <div class="NinjaID"><input type="text" id="myInput" onkeyup="searchText=this.value; updateView()" placeholder="Search for names.." title="Type in a name"> </div>
+            <div class="the-lvl">the lvl used</div>
+            <div class="the-seal">the seal used</div>
+            <div class="Genin"><b>Genin slot</b></div>
+            <div class="is-off-"><b>is it off with slot ?</b></div>
+            <div class="an-yes-or-no">Yes or no </div>
+            <div class="off-poss"><b>offposs</b></div>
+            <div class="penalty"><b>penalty</b></div>
+            <div id="BL" class="Bloodline">Blodline</div>
+            <div id="BL" class="BL-name">Chosen BL</div>
+            <div id="BL" class="BL-lvL">BL lvl </div>
+            <div  class="The-BL-lvl">The chosen BL lvl</div>
+            <div class="pen-">Pen % based on ninja Rank</div>
+            <div id="Stat" class="Stats-points"><b>Stat points</b></div>
+            <div id="Stat" class="stats"><b>Stats</b></div>
+            <div class="Effi"><b>Efficantcy</b></div>
+            <div class="NA"><b>N/A</b> </div>
+            <div class="Attack">Attack</div>
+            <div class="Atk">atk stat input</div>
+            <div class="Atk-effi">Atk Effi</div>
+            <div class="Tai-used">Tai Used</div>
+            <div class="Nin-Used">Nin Used</div>
+            <div class="Buki-used">Buki Used</div>
+            <div class="Stam-used">Stam Used</div>
+            <div class="Taijutsu">Taijutsu</div>
+            <div class="Ninjutsu">Ninjutsu</div>
+            <div class="Bukijutsu">Bukijutsu</div>
+            <div class="Stamina">Stamina</div>
+            <div class="Tai">Tai innput</div>
+            <div class="Nin">Nin input</div>
+            <div class="Buki">Buki input</div>
+            <div class="Stam">Stam input</div>
+            <div class="Tai-effi">Tai effi</div>
+            <div class="Nin-effi">nin effi</div>
+            <div class="Buki-effi">Buki effi </div>
+            <div class="Stam-effi">Stamina effi will be%</div>
+            <div class="Gen-used">Gen-used</div>
+            <div class="Ele-used">Ele-used</div>
+            <div class="Critt-dmg-used">Critt-dmg-used</div>
+            <div class="Critthit-used">Critthit-used</div>
+            <div class="Reroll-used">Reroll-used</div>
+            <div class="Buki-rec-used">bui Buki-rec-used</div>
+            <div class="Biki-bo-used">Buki boo used</div>
+            <div class="Na"><b>N/A</b> </div>
+            <div class="Gen-act-used">Gen act used</div>
+            <div class="Genjutsu">Genjutsu</div>
+            <div class="Elemental">Elemental</div>
+            <div class="Crittical-Damage">Crittical dammage</div>
+            <div class="Crittical-hit">Crittical hit</div>
+            <div class="Reroll">Reroll</div>
+            <div class="Bukijutsu-Recovery">Bukijutsu Recovery</div>
+            <div class="Bukijutsu-Boost">Bukijutsu Boost</div>
+            <div class="Endurance">Endurance</div>
+            <div class="Gen-Activation">Gen-Activation</div>
+            <div class="Gen">Genjutsu input</div>
+            <div class="Elel">Elemental input</div>
+            <div class="CrittDmg">critt DMG input</div>
+            <div class="CritHit">Critt hit input</div>
+            <div class="ReRoll">Reroll input</div>
+            <div class="Bukirec">Buki rec input</div>
+            <div class="BukiBoob">Buki boost input</div>
+            <div class="Endu">Endurance input</div>
+            <div class="Gen-act">Gen-Activation input</div>
+            <div class="Gen-effi">Gen-effi</div>
+            <div class="Ele-effi">Ele-effi</div>
+            <div class="Critt-dmg-effi">Critt-dmg-effi</div>
+            <div class="Crit-hit">Crit-hit % effi</div>
+            <div class="Reroll-effi">Reroll-effi</div>
+            <div class="Bukirec-effi">Bukirec-effi</div>
+            <div class="Bukiboob-effi">Bukiboob-effi</div>
+            <div class="Endu-effi">Endu-effi</div>
+            <div class="Gen-act-effi">Gen-act-effi</div>
+            <div class="div5"></div>
+            <div class="div6"></div>
+            <div class="div7"></div>
+            <div class="div8"></div>
+            <div class="div"></div>
+            <div class="div2"></div>
+            <div class="div3"></div>
+            <div class="div4"></div>
+            <div class="div9"></div>
+            <div class="div10"></div>
+            <div class="div11"></div>
+            <div class="div12"></div>
+            <div class="div13"></div>
+            <div class="div14"></div>
+            <div class="div15"></div>
+            <div class="div16"></div>
+            <div class="div17"></div>
+            <div class="div-18"></div>
+            <div class="div19"></div>
+            <div class="div20"></div>
+            <div class="div21"></div>
+            <div class="div22"></div>
+            <div class="div23"></div>
+            <div class="div24"></div>
+            <div class="Avrage-DMG"><b>Avrage-DMG</b></div>
+            <div class="Avrage-hit"><b>Damage-range</b></div>
+            <div class="Damage-range"><b>Damage-range</b></div>
+            <div class="Avrage-Dmg-on-critt"><b>Avrage-Dmg-on-critt</b></div>
+            <div class="Damage-Range-with-Crittical-Hit"><b>Damage-Range-with-Crittical-Hit</b></div>
+            <div class="low-dmg"><b>low-dmg</b></div>
+            <div class="High"><b>High DMG</b></div>
+            <div class="Avrage-Critt"><b>Avrage-Critt</b></div>
+            <div class="low-crit"><b>low-crit</b></div>
+            <div class="High-crit"><b>High-crit</b></div>
+          </div>
+    
+
+          
+- 
+
+
+
+            <script>    
+
+            // function selectedNinjaObj=ninjas.find(ninjaobj.ninjaID==)
+  //model
+
+            let searchText;
+
+            //view
+            let mainGrid= document.getElementById('mainGrid');
+     updateView();
+        function updateView() {
+            let myNinjas = ninjas;
+            if (searchText) {
+                myNinjas = ninjas.filter(ninjaObj => ninjaObj.Identifier.includes(searchText));
+                
+                
+                myNinjas= filterNinjas(ninjas);
+            }
+
+            let html = '';
+            for (let i = 0; i < myNinjas.length; i++) {
+                let ninjaObj = myNinjas[i];
+                html += `<button onclick="select(${ninjaObj.NIdentifier})">${ninjaObj.NinjaName}</button><br/>`;
+            }
+            document.getElementById('searchResults').innerHTML = html;
+        }
+
+        //  function updateView2() {
+        //      document.getElementById('searchResults').innerHTML =
+        //          ninjas.filter(ninjaObj => !searchText || ninjaObj.NinjaName.includes(searchText))
+        //                .map(ninjaObj => `<li>${ninjaObj.NinjaName}</li>`)
+        //                .join('');
+        //  }
+
+
+            function filterNinjas(list){
+                return list.filter(ninjaObj => ninjaObj.Identifier.includes(searchText))
+            }
+
+        function filterNinja(list) {
+            return ninjaObjIdentifier.includes(searchText);{
+               
+            }
+        }
+       
+
+        function filterNinjas2(list) {
+            let newList =[];
+            for(let ninjaObj of list){
+                if (ninjaObj => ninjaObj.Identifier.includes(searchText))
+                newList.push(ninjaObj);
+            }
+            return newList;
+         }   
+         
+
+         
+    
+   
+
+    
+</script> 
+
+
+
+</html>

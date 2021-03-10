@@ -1,0 +1,436 @@
+#searchResults{
+  height: 200px;
+  overflow-y: scroll;
+  width:300px;
+}
+.grid-container {
+  display: grid;
+  position: fixed;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr  1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:"Chakra-cost ninja-1 NinjaID Genin"
+    "The-Cost lvl the-lvl Genin"
+    "Quaterable seal the-seal is-off-"
+    "yey item1 item-1 an-yes-or-no"
+    "onefoourth item2 item-2 off-poss"
+    "neh item3 Item-3 penalty"
+    "stat-point-used Bloodline BL-name penalty"
+    "numer-of-stats-used BL-lvL The-BL-lvl pen-"
+    "STats-points stats stats Effi"
+    "NA Attack Atk Atk-effi"
+    "Tai-used Taijutsu Tai Tai-effi"
+    "Nin-Used Ninjutsu Nin Nin-effi"
+    "Buki-used Bukijutsu Buki Buki-effi"
+    "Stam-used Stamina Stam Stam-effi"
+    "Gen-used Genjutsu Gen Gen-effi"
+    "Ele-used Elemental Elel Ele-effi"
+    "Critt-dmg-used Crittical-Damage CrittDmg Critt-dmg-effi"
+    "Critthit-used Crittical-hit CritHit Crit-hit"
+    "Reroll-used Reroll ReRoll Reroll-effi"
+    "Buki-rec-used Bukijutsu-Recovery Bukirec Bukirec-effi"
+    "Biki-bo-used Bukijutsu-Boost BukiBoob Bukiboob-effi"
+    "Na Endurance Endu Endu-effi"
+    "Gen-act-used Gen-Activation Gen-act Gen-act-effi"
+    "div div3 div5 div7"
+    "div2 div4 div6 div8"
+    "div9 div11 div13 div15"
+    "div10 div12 div14 div16"
+    "div17 div19 div21 div23"
+    "div-18 div20 div22 div24"
+    "Avrage-DMG Avrage-DMG Avrage-hit Avrage-hit"
+    "Damage-range Damage-range low-dmg High"
+    "Avrage-Dmg-on-critt Avrage-Dmg-on-critt Avrage-Critt Avrage-Critt"
+    "Damage-Range-with-Crittical-Hit Damage-Range-with-Crittical-Hit low-crit High-crit";
+}
+
+.Chakra-cost { grid-area: Chakra-cost; }
+
+.The-Cost { grid-area: The-Cost; }
+
+.Quaterable { grid-area: Quaterable; }
+
+.yey { grid-area: yey; }
+
+.onefoourth { grid-area: onefoourth; }
+
+.neh { grid-area: neh; }
+
+.stat-point-used { grid-area: stat-point-used; }
+
+.numer-of-stats-used { grid-area: numer-of-stats-used; }
+
+.ninja-1 { grid-area: ninja-1; }
+
+.lvl { grid-area: lvl; }
+
+.seal { grid-area: seal; }
+
+.item1 { grid-area: item1; }
+
+.item2 { grid-area: item2; }
+
+.item3 { grid-area: item3; }
+
+.item-1 { grid-area: item-1; }
+
+.item-2 { grid-area: item-2; }
+
+.item-3 { grid-area: Item-3; }
+
+.NinjaID { grid-area: NinjaID; }
+
+.the-lvl { grid-area: the-lvl; }
+
+.the-seal { grid-area: the-seal; }
+
+.Genin { grid-area: Genin; }
+
+.is-off- { grid-area: is-off-; }
+
+.an-yes-or-no { grid-area: an-yes-or-no; }
+
+.off-poss { grid-area: off-poss; }
+
+.penalty { grid-area: penalty; }
+
+.Bloodline { grid-area: Bloodline; }
+
+.BL-name { grid-area: BL-name; }
+
+.BL-lvL { grid-area: BL-lvL; }
+
+.The-BL-lvl { grid-area: The-BL-lvl; }
+
+.pen { grid-area: pen; }
+
+.STats-points { grid-area: Stats-points; }
+
+.stats { grid-area: stats; }
+
+.Effi { grid-area: Effi; }
+
+.NA { grid-area: NA; }
+
+.Attack { grid-area: Attack; }
+
+.Atk { grid-area: Atk; }
+
+.Atk-effi { grid-area: Atk-effi; }
+
+.Tai-used { grid-area: Tai-used; }
+
+.Nin-Used { grid-area: Nin-Used; }
+
+.Buki-used { grid-area: Buki-used; }
+
+.Stam-used { grid-area: Stam-used; }
+
+.Taijutsu { grid-area: Taijutsu; }
+
+.Ninjutsu { grid-area: Ninjutsu; }
+
+.Bukijutsu { grid-area: Bukijutsu; }
+
+.Stamina { grid-area: Stamina; }
+
+.Tai { grid-area: Tai; }
+
+.Nin { grid-area: Nin; }
+
+.Buki { grid-area: Buki; }
+
+.Stam { grid-area: Stam; }
+
+.Tai-effi { grid-area: Tai-effi; }
+
+.Nin-effi { grid-area: Nin-effi; }
+
+.Buki-effi { grid-area: Buki-effi; }
+
+.Stam-effi { grid-area: Stam-effi; }
+
+.Gen-used { grid-area: Gen-used; }
+
+.Ele-used { grid-area: Ele-used; }
+
+.Critt-dmg-used { grid-area: Critt-dmg-used; }
+
+.Critthit-used { grid-area: Critthit-used; }
+
+.Reroll-used { grid-area: Reroll-used; }
+
+.Buki-rec-used { grid-area: Buki-rec-used; }
+
+.Biki-bo-used { grid-area: Biki-bo-used; }
+
+.Na { grid-area: Na; }
+
+.Gen-act-used { grid-area: Gen-act-used; }
+
+.Genjutsu { grid-area: Genjutsu; }
+
+.Elemental { grid-area: Elemental; }
+
+.Crittical-Damage { grid-area: Crittical-Damage; }
+
+.Crittical-hit { grid-area: Crittical-hit; }
+
+.Reroll { grid-area: Reroll; }
+
+.Bukijutsu-Recovery { grid-area: Bukijutsu-Recovery; }
+
+.Bukijutsu-Boost { grid-area: Bukijutsu-Boost; }
+
+.Endurance { grid-area: Endurance; }
+
+.Gen-Activation { grid-area: Gen-Activation; }
+
+.Gen { grid-area: Gen; }
+
+.Elel { grid-area: Elel; }
+
+.CrittDmg { grid-area: CrittDmg; }
+
+.CritHit { grid-area: CritHit; }
+
+.ReRoll { grid-area: ReRoll; }
+
+.Bukirec { grid-area: Bukirec; }
+
+.BukiBoob { grid-area: BukiBoob; }
+
+.Endu { grid-area: Endu; }
+
+.Gen-act { grid-area: Gen-act; }
+
+.Gen-effi { grid-area: Gen-effi; }
+
+.Ele-effi { grid-area: Ele-effi; }
+
+.Critt-dmg-effi { grid-area: Critt-dmg-effi; }
+
+.Crit-hit { grid-area: Crit-hit; }
+
+.Reroll-effi { grid-area: Reroll-effi; }
+
+.Bukirec-effi { grid-area: Bukirec-effi; }
+
+.Bukiboob-effi { grid-area: Bukiboob-effi; }
+
+.Endu-effi { grid-area: Endu-effi; }
+
+.Gen-act-effi { grid-area: Gen-act-effi; }
+
+.div5 { grid-area: div5; }
+
+.div6 { grid-area: div6; }
+
+.div7 { grid-area: div7; }
+
+.div8 { grid-area: div8; }
+
+.div { grid-area: div; }
+
+.div2 { grid-area: div2; }
+
+.div3 { grid-area: div3; }
+
+.div4 { grid-area: div4; }
+
+.div9 { grid-area: div9; }
+
+.div10 { grid-area: div10; }
+
+.div11 { grid-area: div11; }
+
+.div12 { grid-area: div12; }
+
+.div13 { grid-area: div13; }
+
+.div14 { grid-area: div14; }
+
+.div15 { grid-area: div15; }
+
+.div16 { grid-area: div16; }
+
+.div17 { grid-area: div17; }
+
+.div-18 { grid-area: div-18; }
+
+.div19 { grid-area: div19; }
+
+.div20 { grid-area: div20; }
+
+.div21 { grid-area: div21; }
+
+.div22 { grid-area: div22; }
+
+.div23 { grid-area: div23; }
+
+.div24 { grid-area: div24; }
+
+.Avrage-DMG { grid-area: Avrage-DMG; }
+
+.Avrage-hit { grid-area: Avrage-hit; }
+
+.Damage-range { grid-area: Damage-range; }
+
+.Avrage-Dmg-on-critt { grid-area: Avrage-Dmg-on-critt; }
+
+.Damage-Range-with-Crittical-Hit { grid-area: Damage-Range-with-Crittical-Hit; }
+
+.low-dmg { grid-area: low-dmg; }
+
+.High { grid-area: High; }
+
+.Avrage-Critt { grid-area: Avrage-Critt; }
+
+.low-crit { grid-area: low-crit; }
+
+.High-crit { grid-area: High-crit; }
+
+
+
+/* first modifier for divs */
+.lvl,.the-lvl{
+  background-color: paleturquoise;
+}
+.seal,.the-seal{
+  background-color: palevioletred;
+}
+.Genin {
+  background-color: aqua;
+}
+.Chakra-cost,.The-Cost {
+  background-color:lightgray;
+}
+.ninja-1 {
+  background-color: lightgreen;
+}
+.NinjaID {
+  
+  background-color: lightpink;
+}
+
+
+.stats,.Stats-points{
+  background-color: lightsalmon;
+  border: 2px solid black;
+}
+.item1,.item2,.item3{
+  
+  background-color: khaki;
+}
+.item-1,.item-2,.item-3{
+ 
+  background-color: khaki;
+  border: 2px solid black;
+}
+.NA,.Tai-effi,.Nin-effi,.Buki-effi,.Stam-effi,.Gen-used,.Ele-used,.Critt-dmg-used,.Critthit-used,.Reroll-used,.Buki-rec-used,.Biki-bo-used,.Na,.Gen-act-used,.Gen-effi,.Ele-effi,.Critt-dmg-effi,.Reroll-effi,.Bukirec-effi,.Bukiboob-effi,.Endu-effi,.Gen-act-effi {
+  border: 1px solid black;
+}
+
+.NA,.Na{
+  
+}
+
+.Ninjutsu,.Bukijutsu,.Stamina,.Genjutsu,.Elemental,.Crittical-Damage,.Crittical-hit,.Reroll,.Bukijutsu-Recovery,.Bukijutsu-Boost,.Endurance,.Gen-Activation{
+  border: 1px solid black;
+  background-color: lightsalmon;
+}
+.Attack,.Taijutsu{
+  border: 1px solid black;
+  background-color: lightsalmon;
+}
+
+.Quaterable,.yey,.onefoourth,.neh{
+  border: 1px solid black;
+  }
+  .Quaterable,.yey{
+    background-color: hotpink;
+  }
+  .onefoourth,.neh{
+    background-color: indianred;
+  }
+  .Bloodline,.BL-name,.BL-lvL,.The-BL-lvl{
+    background-color:darkred;
+  }
+
+
+  .Avrage-hit{
+    background-color: blue;
+  }
+  .Avrage-Critt{
+background-color: steelblue;
+  }
+   .High,.High-crit{
+     border: 2px solid lightblue;
+    background-color: gold;
+  }
+  .low-dmg,.low-crit{
+    background-color:rgb(253, 165, 165);
+    border: 2px solid snow;
+  }
+  .Damage-Range-with-Crittical-Hit{
+    background-color: royalblue;
+  }
+  .Avrage-DMG{
+    background-color: seagreen;
+  }
+  .Avrage-Dmg-on-critt{
+    background-color: sienna;
+  }
+  .Damage-range{
+    background-color: skyblue;
+  }
+  .Effi,.Atk-effi,.Tai-effi,.Nin-effi,.Buki-effi,.Stam-effi,.Gen-effi,.Ele-effi,.Critt-dmg-effi,.Crit-hit,.Reroll-effi,.Bukirec-effi,.Bukiboob-effi,.Endu-effi,.Gen-act-effi{
+    background-color: teal;
+  }
+
+  .penalty,.pen-{
+    background-color: violet;
+  }
+ 
+  .Atk,.Tai,.Nin,.Buki,.Stam,.Gen,.Elel,.CrittDmg,.CritHit,.ReRoll,.Bukirec,.BukiBoob,.Endu,.Gen-act{
+    background-color: salmon;
+  }
+
+  .NA,.Tai-used,.Nin-Used,.Buki-used,.Stam-used,.Gen-used,.Ele-used,.Critt-dmg-used,.Critthit-used,.Reroll-used,.Buki-rec-used,.Biki-bo-used,.Na,.Gen-act-used{
+    background-color: rgba(250, 128, 114, 0.637);
+  }
+ 
+
+  /* secondary moddifcations for input tokens  */
+  .grid-container {
+    border: 4px solid black;
+  }
+
+  .is-off-,.an-yes-or-no,.off-poss{
+    background-color: rgba(128, 0, 128, 0.322);
+    border: 1px solid black;
+  }
+  #BL{
+    border:1px solid white;
+  }
+.the-lvl,.the-seal,.The-BL-lvl,.NinjaID{
+  border: 2px solid black;
+}
+
+.Atk,.Tai,.Nin,.Buki,.Stam,.Gen,.Elel,.CrittDmg,.CritHit,.ReRoll,.Bukirec,.BukiBoob,.Endu,.Gen-act{
+  
+  border:2px solid black;
+}
+
+.stat-point-used,.numer-of-stats-used{
+  background-color: darkgoldenrod;
+}
+.Item{
+  border: 1px solid black;
+}
+.penalty{
+  border: 2px solid black;
+}
+.Effi{
+  border: 2px solid black;
+}
