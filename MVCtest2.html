@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="MVC2.CSS">
+    <script src="MVC.JS"></script>
+
+</head>
+<body>
+    <div class="NinjaID"><input type="text" id="myInput" onkeyup="searchText=this.value; updateView()" placeholder="Search for names.." title="Type in a name"> </div>
+
+    <div id="hovedSide"></div>
+    <script>
+//model
+let divArray = ['1', '2', '3']; 
+let divArray2 = ['1', '2', '3', '4']; 
+
+let bigObj = {
+    arr1 : ["hei","ert",3],
+    arr2: [1,2,4]
+   }
+
+var hovedSide = document.getElementById('hovedSide');
+makeDivs();
+    function makeDivs(){
+        let html = ``;
+        //   for (var i=0; i < 6; i++){
+            for (var i=0; i < Object.keys(Ninjas.Stats).length; i++){
+                html += `<div>${Object.keys(Ninjas.Stats)[i]}: ${Object.values(Ninjas.Stats)[i]}</div>`;
+            }
+            for (var i=0; i < Object.keys(Ninjas.theNinja).length; i++){
+                html += `<div>${Object.keys(Ninjas.theNinja)[i]}: ${Object.values(Ninjas.theNinja)[i]}</div>`;
+            }
+            
+            html += `<div>${Object.values(Ninjas.theNinja.NinjaName)}</div>`;
+
+
+    
+        hovedSide.innerHTML = html;          
+          
+    }
+
+
+//view 
+// updateView();
+// function updateView(){
+//     let html = '';
+// document.getElementById('hovedSide').innerHTML = html;
+// }
+
+    </script>
+</body>
+</html>

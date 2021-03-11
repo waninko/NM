@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="MVC.CSS">
+
+</head>
+<body>
+    <div id="hovedSide"></div>
+    <script>
+//model
+let divArray = ['1', '2', '3']; 
+
+var hovedSide =document.getElementById('hovedSide');
+makeDivs();
+    function makeDivs(){
+        let html = ``;
+        html += '<div class="grid-container">';
+            for (var i=0; i <= 18; i++){
+                if(i % 3 != 0){
+                    html += `<div class="BG-black border-red grid${i}">${i}</div>`;
+                }
+                if(i % 3 ==0){
+                    html += `<div class="grid${i}">${i}</div>`;
+                }
+            }
+            
+            
+            html += '</div>';  
+            hovedSide.innerHTML = html;
+    }
+
+    {
+    "Chakra": 20,
+    "Position": 2,
+    "Seal": 7,
+    "Value": 800,
+    "Forbidden": true,
+    "Stats": {
+      "Tai": 43,
+      "Nin": 15,
+      "Buki": 5,
+      "Sta": 35,
+      "Ele": 30,
+      "Gen": 20
+    },
+    "Growth": {
+      "Tai": 6.3,
+      "Nin": 1.5,
+      "Buki": 0.5,
+      "Sta": 2.5,
+      "Ele": 2,
+      "Gen": 2.5
+    },
+    "Ability": [
+      "iron-claw",
+      "lightning-body-flicker",
+      "lariat",
+      "cloak-of-lightning"
+    ],
+    "SealBonus": {
+      "Low": {
+        "Reroll": 35,
+        "CritChance": 25
+      },
+      "High": {
+        "Crit": 10,
+        "End": 30
+      }
+    },
+    "FixedChakra": true,
+    "NinjaID": 457,
+    "Identifier": "a-fn-jounin",
+    "NinjaName": "a"
+  },
+//view 
+// updateView();
+// function updateView(){
+//     let html = '';
+// document.getElementById('hovedSide').innerHTML = html;
+// }
+
+    </script>
+</body>
+</html>

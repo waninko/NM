@@ -1,24 +1,22 @@
 function search (searchText){
 
 }
-
 // let searchText;
-const ninjas = [
-  {
-    "Chakra": 20,
-    "Position": 2,
-    "Seal": 7,
-    "Value": 800,
-    "Forbidden": true,
-    "Stats": {
-      "Tai": 43,
-      "Nin": 15,
-      "Buki": 5,
-      "Sta": 35,
-      "Ele": 30,
-      "Gen": 20
-    },
-    "Growth": {
+const ninjas = [ {
+  "Chakra": 20,
+  "Position": 2,
+  "Seal": 7,
+  "Value": 800,
+  "Forbidden": true,
+  "Stats": {
+    "Tai": 43,
+    "Nin": 15,
+    "Buki": 5,
+    "Sta": 35,
+    "Ele": 30,
+    "Gen": 20
+  },
+  "Growth": {
       "Tai": 6.3,
       "Nin": 1.5,
       "Buki": 0.5,
@@ -18108,7 +18106,7 @@ const ninjas = [
 //  searchText: null,
 // });
 // const sortedByChakra = ninjas.sort((a,b) => a.Chakra - b.Chakra);
-// let  Ninja = ninjas.filter(Ninja => Ninja.NinjaName== "zetsu");
+// let  Ninja = ninjas.filter(Ninja => Ninja.Chakra);
 // const ninjas
 //    console.log(Ninja)
 
