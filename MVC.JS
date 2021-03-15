@@ -106,6 +106,8 @@ const Ninjas =[
       "NinjaID": 365,
       "Identifier": "konan-fn-jounin",
       "NinjaName": "konan"
+      
+      
     },
     
   ] 

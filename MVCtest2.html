@@ -53,6 +53,18 @@ function MakeDropDown() {
             }
             html+= `<div>Identifier ${option.Identifier}</div>`
             html+= `<div>NinjaName ${option.NinjaName}</div>`
+            let currentAbility = "";
+            for(Ability in option.Ability){
+                currentAbility =Ability;
+            html+= `<div>Ability ${option.Ability[Ability]}</div>`
+        }
+         html+=`<div>fixed Chakra: ${option.FixedChakra}</div>`
+         if(FixedChakra)
+        
+                
+
+            
+       
         }
     
         selectResult.innerHTML =  html;          

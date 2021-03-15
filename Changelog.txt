@@ -2,5 +2,5 @@
 
 added update view with dropdown. testing first part seeing how it will work 
 
-drop down to see growth stat name and ID . 
+drop down to see growth stat name and ID and ability 
 
