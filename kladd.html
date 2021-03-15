@@ -8,12 +8,74 @@
 <body>
     
 
+    function multiplyBy()
+    {
+            document.getElementById("result").innerHTML = ""
+            var Lvl = parseInt(document.getElementById("LVL").value);
+         
+    
+            for(let obj of testModel){      
+            for(let singleStat in obj.Stats){
+    
+                    for(let growth in obj.Growth ){
+                           if(singleStat == growth){
+                            // console.log("Match! Yas!", growth)
+                            //plukke ut verdier fra keys  (navnet på feltet) og gange og plusse og alt det der
+    
+                            let statValue = obj.Stats[singleStat];
+                            let growthValue = obj.Growth[growth];
+    
+                            // console.log(statValue[singleStat] + " test  "+ growthValue[growth])
+    
+                            //console.log(isNaN(statValue) , "<- isNAN check  typeof: " , typeof(statValue)  )
+                            document.getElementById("result").innerHTML += `<li>${(growthValue * Lvl) + statValue -growthValue}</li>`;
+                           }
+                    }
+            }
+    
+            
+           // document.getElementById("result").innerHTML += `<li>${(growth * Lvl) + stat}</li>`;
+    
+            }
+            
+
+
+
+
+
+
+
+
 Chakra
 Ninjas.NinjaName
 "a"
 Ninjas.Identifier
 "a-fn-jounin"
 
+
+
+makeDivs();
+    function makeDivs(){
+        let html = ``;
+        //   for (var i=0; i < 6; i++){
+            for (var i=0; i < Object.keys(Ninjas.Stats).length; i++){
+                html += `<div>${Object.keys(Ninjas.Stats)[i]}: ${Object.values(Ninjas.Stats)[i]}</div>`;
+            }
+            for (var i=0; i < Object.keys(Ninjas.theNinja).length; i++){
+                html += `<div>${Object.keys(Ninjas.theNinja)[i]}: ${Object.values(Ninjas.theNinja)[i]}</div>`;
+            }
+            
+            html += `<div>${Object.values(Ninjas.theNinja.NinjaName)}</div>`;
+            
+            for (var i=0; i < Object.keys(Ninjas.Growth).length; i++){
+                html += `<div>${Object.keys(Ninjas.Growth)[i]}: ${Object.values(Ninjas.Growth)[i]}</div>`;
+            }
+    
+        hovedSide.innerHTML = html;          
+          
+    }
+
+//     function lvlUP()
 
 
 

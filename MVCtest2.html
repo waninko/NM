@@ -9,38 +9,91 @@
 
 </head>
 <body>
-    <div class="NinjaID"><input type="text" id="myInput" onkeyup="searchText=this.value; updateView()" placeholder="Search for names.." title="Type in a name"> </div>
-
+ 
     <div id="hovedSide"></div>
+    <div id="selectResult"></div>
     <script>
 //model
-let divArray = ['1', '2', '3']; 
-let divArray2 = ['1', '2', '3', '4']; 
-
-let bigObj = {
-    arr1 : ["hei","ert",3],
-    arr2: [1,2,4]
-   }
 
 var hovedSide = document.getElementById('hovedSide');
-makeDivs();
+var selectResult = document.getElementById('selectResult')
+MakeDropDown();
+function MakeDropDown() {
+        let html = `<select onchange="selectNinja(this.value)">` ; 
+            console.log("make dropdown kjører")
+        for(let ninja of Ninjas){
+          html +=  `<option >${ninja.NinjaName}</option>`
+        }
+        html += '</select>'
+
+        hovedSide.innerHTML = html;
+       
+    }
+
     function makeDivs(){
         let html = ``;
-        //   for (var i=0; i < 6; i++){
-            for (var i=0; i < Object.keys(Ninjas.Stats).length; i++){
-                html += `<div>${Object.keys(Ninjas.Stats)[i]}: ${Object.values(Ninjas.Stats)[i]}</div>`;
+        //tenge opp stats utifra anvn
+        //mellomlagre id osv i hver sin - dollare ut i viewloop
+        for(let option of Ninjas){
+            if(option.NinjaName == selectedNinja){
+                html += `<div>Chakra: ${option.Chakra}</div>`
+                html += `<div>Position: ${option.Position}</div>`
+                html += `<div>Seal: ${option.Seal}</div>`
+                //loope ut stats
+                let currentStat = ""; // mellomlagringsvar 
+                for(stat in option.Stats){
+                    //get key
+                    currentStat = stat; // - ta vare på "current stat" fra løkka
+                    html += `<div>${currentStat}: ${option.Stats[stat]}</div>`;
+                }
+                let currentGrowth = "";
+            for(growth in option.Growth){
+                currentGrowth =growth;
+                html+= `<div>Growth ${currentGrowth}:${option.Growth[growth]}</div>`;
             }
-            for (var i=0; i < Object.keys(Ninjas.theNinja).length; i++){
-                html += `<div>${Object.keys(Ninjas.theNinja)[i]}: ${Object.values(Ninjas.theNinja)[i]}</div>`;
-            }
-            
-            html += `<div>${Object.values(Ninjas.theNinja.NinjaName)}</div>`;
-
-
+            html+= `<div>Identifier ${option.Identifier}</div>`
+            html+= `<div>NinjaName ${option.NinjaName}</div>`
+        }
     
-        hovedSide.innerHTML = html;          
-          
+        selectResult.innerHTML =  html;          
+       
     }
+    }
+
+    function selectNinja(clickedNinja) {
+        selectedNinja = clickedNinja;
+        makeDivs();
+    }
+   
+
+
+// loope ut stats (bare da ikke med options, men med divs eller whatevs)
+    // for(let option of Ninjas){
+    //         if(option.NinjaName == selectedNinja){
+    //             html += `<option>Chakra: ${option.Chakra}</option>`
+    //             html += `<option>Position: ${option.Position}</option>`
+    //             html += `<option>Seal: ${option.Seal}</option>`
+    //             html += `<option>Stats: ${option.Stats}</option>`
+    //         }
+    //     }
+
+
+
+
+   
+        //   for (var i=0; i < 6; i++){
+            // for (var i=0; i < Object.keys(Ninjas.Stats).length; i++){
+            //     html += `<div>${Object.keys(Ninjas.Stats)[i]}: ${Object.values(Ninjas.Stats)[i]}</div>`;
+            // }
+            // for (var i=0; i < Object.keys(Ninjas).length; i++){
+            //     html += `<div>${Object.keys(Ninjas)[i]}: ${Object.values(Ninjas)[i]}</div>`;
+            // }
+      
+            
+            
+            // for (var i=0; i < Object.keys(Ninjas.Growth).length; i++){
+            //     html += `<div>${Object.keys(Ninjas.Growth)[i]}: ${Object.values(Ninjas.Growth)[i]}</div>`;
+            // }
 
 
 //view 
@@ -50,6 +103,6 @@ makeDivs();
 // document.getElementById('hovedSide').innerHTML = html;
 // }
 
-    </script>
+</script>
 </body>
 </html>
