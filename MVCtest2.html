@@ -58,9 +58,8 @@ function MakeDropDown() {
                 currentAbility =Ability;
             html+= `<div>Ability ${option.Ability[Ability]}</div>`
         }
-         html+=`<div>fixed Chakra: ${option.FixedChakra}</div>`
-         if(FixedChakra)
-        
+         html+=`<div>fixed Chakra: ${checkFixed}</div>`
+         if(true) {
                 
 
             
@@ -72,6 +71,10 @@ function MakeDropDown() {
     }
     }
 
+}
+
+  
+    
     function selectNinja(clickedNinja) {
         selectedNinja = clickedNinja;
         makeDivs();
