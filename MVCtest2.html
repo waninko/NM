@@ -58,13 +58,10 @@ function MakeDropDown() {
                 currentAbility =Ability;
             html+= `<div>Ability ${option.Ability[Ability]}</div>`
         }
-         html+=`<div>fixed Chakra: ${checkFixed}</div>`
-         if(true) {
-                
-
-            
-       
-        }
+         html+=`<div>fixed Chakra?: ${option.FixedChakra}</div>`
+         html+=`<div> Forbidden?: ${option.Forbidden}</div>`
+        //  html+=`<input type="text" id="LVL" /><br> <input type="button" onClick="multiplyBy()" Value="Stats" />`
+        //  html+=`<div ID="rsesult"> </div>` 
     
         selectResult.innerHTML =  html;          
        
@@ -73,7 +70,13 @@ function MakeDropDown() {
 
 }
 
-  
+function multiplyBy()
+{    document.getElementById("result").innerHTML = ""
+        var LV = parseInt(document.getElementById("LVL").value);
+     
+
+       
+    }
     
     function selectNinja(clickedNinja) {
         selectedNinja = clickedNinja;
