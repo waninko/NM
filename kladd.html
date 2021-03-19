@@ -7,6 +7,41 @@
 </head>
 <body>
     
+<!-- ned cuttet 
+for(let obj of Ninjas){  
+    for(let singleStat in obj.Stats){
+     for(let growth in obj.Growth ){
+         if(singleStat == growth){    
+             let statValue = obj.Stats[singleStat];
+                    let growthValue = obj.Growth[growth];
+document.getElementById("result").innerHTML += `<li>${(growthValue * LVL) + statValue -growthValue}</li>`;}}} }
+
+
+
+    // loope ut stats (bare da ikke med options, men med divs eller whatevs)
+    // for(let option of Ninjas){
+    //         if(option.NinjaName == selectedNinja){
+    //             html += `<option>Chakra: ${option.Chakra}</option>`
+    //             html += `<option>Position: ${option.Position}</option>`
+    //             html += `<option>Seal: ${option.Seal}</option>`
+    //             html += `<option>Stats: ${option.Stats}</option>`
+    //         }
+    //     }
+
+
+  //   for (var i=0; i < 6; i++){
+            // for (var i=0; i < Object.keys(Ninjas.Stats).length; i++){
+            //     html += `<div>${Object.keys(Ninjas.Stats)[i]}: ${Object.values(Ninjas.Stats)[i]}</div>`;
+            // }
+            // for (var i=0; i < Object.keys(Ninjas).length; i++){
+            //     html += `<div>${Object.keys(Ninjas)[i]}: ${Object.values(Ninjas)[i]}</div>`;
+            // }
+      
+            
+            
+            // for (var i=0; i < Object.keys(Ninjas.Growth).length; i++){
+            //     html += `<div>${Object.keys(Ninjas.Growth)[i]}: ${Object.values(Ninjas.Growth)[i]}</div>`;
+            // }
 
     function multiplyBy()
     {
@@ -104,11 +139,22 @@ makeDivs();
         hovedSide.innerHTML = html;          
           
     }
-
-//     function lvlUP()
-
+) -->
 
 
+
+<script>
+var tall = '4';
+var tallNrTo = 4;
+tall == tallNrTo;    
+</script>
+<!-- 
+her er kodene for alt som blir tatt ut til Oblig  -->
+<!-- let currentGrowth = "";  
+for(growth in option.Growth){
+currentGrowth =growth;
+    html+= `<div>Growth ${currentGrowth}:${option.Growth[growth]}</div>`;
+} -->
 
 
 </body>

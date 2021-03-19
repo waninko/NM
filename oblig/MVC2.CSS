@@ -1,0 +1,100 @@
+html, body {
+    padding: 0;
+    margin: 0;
+
+    display: block;
+    display: flex;
+    width:100vw;
+    height:100vh;
+  
+ 
+ }
+  .dropdown {
+    position: absolute;
+    display: inline-block;
+    width:700px;
+    left:10vw;
+    top: 30px;
+  }
+  
+  .dropdown-content {
+    display:block;
+    width: 700px;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    bottom:10vh;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  } 
+#result {
+    position:fixed;
+    display:flex;
+    flex-wrap:wrap;
+    background-color: purple;
+    width:2vw;
+    height:36vh;
+    right:61.5vw;
+    top:25vh;
+    
+   
+}
+
+#selectResult {
+display:flex;
+flex-wrap: wrap;
+width:30vw;
+height:30vh;
+font-size:4vh;
+background-color: yellow;
+ 
+}
+
+
+#bearDiv  {
+   
+    background-color: bisque;
+}
+
+input{
+    position:absolute;
+    display: flex;
+    flex-wrap:wrap;
+    width:40px;
+    left:10vw;
+    bottom:90vh;
+
+}
+#LVL{
+    display:flex;
+    flex-wrap: wrap;
+    border-radius:12px;
+    background-color: blueviolet;
+    left:10vw;
+}
+.Chakra{
+    position:relative;
+    
+    flex-wrap: wrap;
+    display: flex;
+}
+.position{
+    position: relative;
+    display:flex;
+    flex-wrap: wrap;
+}
+.button {
+    position:relative;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    left:6.4vw;
+    bottom:80vh;
+    font-size:16px;
+ 
+  }
+  .Statpoints-Point {
+    background-color: teal;
+  }
+  

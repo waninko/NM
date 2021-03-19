@@ -4,3 +4,8 @@ added update view with dropdown. testing first part seeing how it will work
 
 drop down to see growth stat name and ID and ability 
 
+
+
+17.03
+
+added lvl . but got multiple ninjas 

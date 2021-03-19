@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="MVC2.CSS">
+    <script src="MVC.JS"></script>
+    <script src="MVCDIVS.js"></script>
+    <script src="MVCcontroller.js"></script>
+    <script src="Secondarystats.JS"></script>
+    
+
+</head>
+<body>
+    
+    <div id="hovedSide"></div>
+    <div id="selectResult"></div>
+    <div id="result"></div>
+
+
+    <script>
+//model
+
+var hovedSide = document.getElementById('hovedSide');
+var selectResult = document.getElementById('selectResult')
+MakeDropDown();
+selectNinja(); // KOMMENTER UT DENNE NÅR DU IKKE VIL HA FERDIG VALGT NINJA
+function MakeDropDown() {
+        let html = `<select onchange="selectNinja(this.value)">` ; 
+            // console.log("make dropdown kjører")
+        for(let ninja of Ninjas){
+          html +=  `<option >${ninja.NinjaName}</option>`
+        }
+        html += '</select>'
+        
+        hovedSide.innerHTML = html;
+       
+    }
+
+   
+function selectNinja(clickedNinja) {
+        selectedNinja = clickedNinja;
+        selectedNinja = 'kurenai'; // KOMMENTER UT DENNE NÅR DU IKKE VIL HA FERDIG VALGT NINJA
+        makeDivs();
+    }
+   
+    
+
+
+//view 
+// updateView();
+// function updateView(){
+//     let html = '';
+// document.getElementById('hovedSide').innerHTML = html;
+// }
+
+</script>
+</body>
+</html>
