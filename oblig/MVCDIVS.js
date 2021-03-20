@@ -68,7 +68,14 @@
                 currentStat = stat; 
                     html += `<div class="StatNames">${currentStat}: </div>`;
                 }                 
-               
+                let currentSecondaryStats = "";
+            
+                for (Object in SecondaryStats){
+                    
+                    currentSecondaryStats = SecondaryStats;
+                     html += `<div class="StatNames">${Object,SecondaryStats}${Object,SecondaryStats[SecondaryStats]}:</div>`;
+                    
+                }
             html+= `<div>Identifier ${option.Identifier}</div>`
             html+= `<div>NinjaName ${option.NinjaName}</div>`
             let currentAbility = "";

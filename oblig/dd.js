@@ -1,8 +1,8 @@
 
-const SecondaryStats= [
- {  
-    "CriticalStrike":2,
-    //increase the power off critt . 1 turn only
+const SecondaryStat= [{
+    
+    "CriticalStrike":2
+   
     "CriticalChance":0, //chance to critt . 25% dmg hard cap at 100% =72% 
 
     
@@ -78,5 +78,5 @@ const SecondaryStats= [
 
     "Morph" :0, // on LW to change some stats in to other 
     
-}  
+     }
 ]
