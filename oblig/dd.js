@@ -1,7 +1,7 @@
 
 const SecondaryStat= [{
     
-    "CriticalStrike":2
+    "CriticalStrike":25
    
     "CriticalChance":0, //chance to critt . 25% dmg hard cap at 100% =72% 
 

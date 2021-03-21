@@ -6,11 +6,12 @@ html, body {
     display: flex;
     width:100vw;
     height:100vh;
+   
   
  
  }
   .dropdown {
-    position: absolute;
+    position: fixed;
     display: inline-block;
     width:700px;
     left:10vw;
@@ -20,7 +21,7 @@ html, body {
   .dropdown-content {
     display:block;
     width: 700px;
-    position: absolute;
+    position:fixed;
     background-color: #f9f9f9;
     min-width: 160px;
     bottom:10vh;
@@ -42,10 +43,47 @@ html, body {
    
 }
 
+.The-Cost{
+  position:fixed;
+  display: flex;
+  flex-wrap: wrap;
+  right:93vw;
+  top:2Vh;
+}
+.position {
+  display: flex;
+  flex-wrap: wrap;
+  position:fixed;
+  bottom:94vh;
+  left:30Vw;
+}
+.Seal {
+  display: flex;
+  flex-wrap: wrap;
+  position:fixed;
+  bottom:83vh;
+  left:20Vw;
+}
+.NinjaName {
+  display: flex;
+  flex-wrap: wrap;
+  position:fixed;
+  bottom:94vh;
+  left:15Vw;
+}
+.lvl{
+  display: flex;
+  flex-wrap: wrap;
+  position:fixed;
+  bottom:88vh;
+  left:15Vw;
+
+}
 #selectResult {
 display:flex;
 flex-wrap: wrap;
-width:30vw;
+flex-direction:column;
+width:30vw; 
 height:30vh;
 font-size:4vh;
 /* background-color: yellow; */
@@ -54,12 +92,16 @@ font-size:4vh;
 
 
 #bearDiv  {
-   
-    background-color: bisque;
+  background-color: bisque;
+  position:fixed;
+   display:flex;
+   flex-wrap:wrap;
+   flex-direction:column;
+
 }
 
 input{
-    position:absolute;
+    position:fixed;
     display: flex;
     flex-wrap:wrap;
     width:40px;
@@ -75,16 +117,25 @@ input{
     left:10vw;
 }
 .Chakra{
-    position:relative;
+  
     
     flex-wrap: wrap;
     display: flex;
 }
-.position{
-    position: relative;
-    display:flex;
+.NY{
+  
     flex-wrap: wrap;
+    display: flex;
+
 }
+.quarter1{
+ 
+  display:flex;
+  flex-wrap:wrap;
+  top:20vh;
+  right:40vw;
+}
+
 .button {
     position:relative;
     background-color: rgb(255, 255, 255);
@@ -94,7 +145,7 @@ input{
     font-size:16px;
  
   }
-  .Statpoints-Point {
-    background-color: teal;
-  }
+ 
+    
+
   

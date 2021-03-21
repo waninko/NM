@@ -1,0 +1,147 @@
+.The-Stats{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    position:fixed;
+    width:20vw;
+    
+    background-color: blue;
+    top: 261px;
+    right:65.6%;
+    height:84px;
+}
+#txt {
+    background-color:firebrick;
+    left:277px;
+    top:345px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    position:fixed;
+    width: 223px;
+    font-size:36px;
+   
+
+}
+.Atk {
+    border-bottom: 2px solid black;
+}
+.tai {
+    border-bottom: 2px solid black; 
+   
+
+}
+.Nin{
+    border-bottom: 2px solid black;
+   
+}
+.Buki{
+   
+    border-bottom: 2px solid black;
+}
+.Sta{
+    border-bottom: 2px solid black;   
+   
+}
+.Ele{
+    border-bottom: 2px solid black; 
+   
+}
+.Gen{
+    border-bottom: 2px solid black;  
+   
+
+}
+.Strike{
+    border-bottom: 2px solid black;
+}
+.hit{
+    border-bottom: 2px solid black;
+}
+.roll{
+    border-bottom: 2px solid black;
+}
+.Focus{
+    border-bottom: 2px solid black;
+}
+.Burst{
+    border-bottom: 2px solid black;
+}
+.Range{
+    border-bottom: 2px solid black;
+}
+.Boost{
+    border-bottom: 2px solid black;
+}
+
+.Rec{
+    border-bottom: 2px solid black;
+}
+.Act{
+    border-bottom: 2px solid black;
+}
+.Mastery{
+    border-bottom: 2px solid black;
+}
+.Rech{
+    border-bottom: 2px solid black;
+}
+.Endu{
+    border-bottom: 2px solid black;
+}
+
+
+
+.qq {
+     position:fixed;
+    display:flex;
+     flex-wrap:wrap;
+    background-color: hotpink;
+    top:28vh;
+    text-align:center;
+    width:207px;
+}
+.used{ 
+    background-color: indigo;
+    position:fixed;
+    display:flex;
+     flex-wrap:wrap;
+    top:32.5vh;
+    width:207px;}
+  .Statpoints-Point {
+    background-color: teal;
+    position:fixed;
+     display:flex;
+      flex-wrap:wrap;
+      top:36.8vh;
+      flex-direction:column;
+      width:207px;
+     }
+  .statnames{
+      border-bottom:2px solid black;
+    position:relative;
+    display:flex;
+     flex-wrap:wrap;
+     flex-direction:column;
+    background-color: rgb(77, 15, 15);
+    top:fixed;
+   left:155px;
+   bottom:-344px;
+   right:fixed;
+   font-size:36px;
+    
+     }
+#Secondary {
+    background-color: green;
+    position:relative;
+    display:flex;
+    width:2vw;
+    border-bottom: 2px solid black;
+    flex-direction: column;
+    flex-wrap:wrap;
+    
+   left:118px;
+   bottom:-608px;
+   right:fixed;
+   font-size:36px;
+}
