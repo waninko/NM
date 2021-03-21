@@ -16,8 +16,8 @@
                
                 
           html += `</div>`;
-                html += `<div class=Statpoints-Point>Statspoint Used`;
-                html += `<div Class=N/A>N/A</div>`
+                html += `<div class=Statpoints-Point>Statspoint `;
+                html += `<div Class=s01></div>`
                 html += `<div Class=s02>in</div>`
                 html += `<div Class=s03>in</div>`
                 html += `<div Class=s04>in</div>`
@@ -29,14 +29,14 @@
                 html += `<div Class=s10>in</div>`
                 html += `<div Class=s11>in</div>`
                 html += `<div Class=s12>in</div>`
-                // html += `<div Class=s13>in</div>`
-                // html += `<div Class=s14>in</div>`
-                // html += `<div Class=s15>in</div>` additional stat puts
-                // html += `<div Class=s16>in</div>`
-                // html += `<div Class=s17>in</div>`
-                // html += `<div Class=s18>in</div>`
-                // html += `<div Class=s19>in</div>`
-                // html += `<div Class=s20>in</div>`
+                html += `<div Class=s13>in</div>`
+                html += `<div Class=s14>in</div>`
+                html += `<div Class=s15>in</div>` 
+                html += `<div Class=s16>in</div>`
+                html += `<div Class=s17>in</div>`
+                html += `<div Class=s18>in</div>`
+                html += `<div Class=s19>in</div>`
+                html += `<div Class=s20>in</div>`
                 // html += `<div Class=s21>in</div>`
                 // html += `<div Class=s22>in</div>`
                 html += `</div>`;
@@ -79,10 +79,10 @@
                 html += `<div class=Mastery>Genjutsu Mastery</div>`
                 html += `<div class=Rech>Genjutsu Recharge</div>`
                 html += `<div class=Endu>Endurance</div>`
-                html += `<div class=></div>`
-                html += `<div class=></div>`
-                html += `<div class=></div>`
-                html += `<div class=></div>`
+                // html += `<div class=></div>`
+                // html += `<div class=></div>`
+                // html += `<div class=></div>`
+                // html += `<div class=></div>`
                 html += `</div>`;
                 //loope ut stats
                 let currentStat = ""; // mellomlagringsvar 

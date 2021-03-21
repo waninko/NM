@@ -1,28 +1,7 @@
-.The-Stats{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction:column;
-    position:fixed;
-    width:20vw;
-    
-    background-color: blue;
-    top: 261px;
-    right:65.6%;
-    height:84px;
-}
-#txt {
-    background-color:firebrick;
-    left:277px;
-    top:345px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction:column;
-    position:fixed;
-    width: 223px;
-    font-size:36px;
+
    
 
-}
+
 .Atk {
     border-bottom: 2px solid black;
 }
@@ -79,6 +58,7 @@
 }
 .Act{
     border-bottom: 2px solid black;
+    height:5%;
 }
 .Mastery{
     border-bottom: 2px solid black;
@@ -89,59 +69,100 @@
 .Endu{
     border-bottom: 2px solid black;
 }
-
+.The-Stats{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+     width:200%;
+    
+    background-color: blue;
+    top:300%;
+    left:-3%;
+    border-bottom: 2px solid black;
+}
+#txt {
+    background-color:firebrick;
+    left:-85%;
+    top:122%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    position:relative;
+    width:auto;
+    height:a;
+    font-size:auto;
+}
 
 
 .qq {
-     position:fixed;
-    display:flex;
-     flex-wrap:wrap;
+    position:relative;
     background-color: hotpink;
-    top:28vh;
     text-align:center;
-    width:207px;
+    top:92%;
+    right:49%;
+    width:35%;
 }
 .used{ 
     background-color: indigo;
-    position:fixed;
+    position: relative;
     display:flex;
      flex-wrap:wrap;
-    top:32.5vh;
-    width:207px;}
-  .Statpoints-Point {
+    top:92%;
+    right:49%;
+    width:35%;
+}
+  .Statpoints-Point{
     background-color: teal;
-    position:fixed;
+    position:relative;
      display:flex;
       flex-wrap:wrap;
-      top:36.8vh;
+      top:122%;
+      right:84%;
       flex-direction:column;
       width:207px;
      }
   .statnames{
-      border-bottom:2px solid black;
     position:relative;
     display:flex;
      flex-wrap:wrap;
-     flex-direction:column;
+      border-bottom:2px solid black;
     background-color: rgb(77, 15, 15);
-    top:fixed;
-   left:155px;
-   bottom:-344px;
-   right:fixed;
-   font-size:36px;
+    right:85%;
+    top:137%;
+    
     
      }
 #Secondary {
+    position: relative;
     background-color: green;
-    position:relative;
-    display:flex;
-    width:2vw;
+   display:flex;
     border-bottom: 2px solid black;
     flex-direction: column;
     flex-wrap:wrap;
-    
-   left:118px;
-   bottom:-608px;
-   right:fixed;
-   font-size:36px;
+   top:233%;
+   right:91.5%;
 }
+.s01{
+    border-bottom: 2px solid black;
+}
+.s02{
+    border-bottom: 2px solid black;
+}
+.s03{ border-bottom: 2px solid black;}
+.s04{ border-bottom: 2px solid black;}
+.s05{ border-bottom: 2px solid black;}
+.s06{ border-bottom: 2px solid black;}
+.s07{ border-bottom: 2px solid black;}
+.s08{ border-bottom: 2px solid black;}
+.s09{ border-bottom: 2px solid black;}
+.s10{ border-bottom: 2px solid black;}
+.s11{ border-bottom: 2px solid black;}
+.s12{ border-bottom: 3px solid black;}
+.s13{ border-bottom: 2px solid black;}
+.s14{ border-bottom: 2px solid black;}
+.s15{ border-bottom: 2px solid black;}
+.s16{ border-bottom: 2px solid black;}
+.s17{ border-bottom: 2px solid black;}
+.s18{ border-bottom: 2px solid black;}
+.s19{ border-bottom: 2px solid black;}
+.s20{ border-bottom: 2px solid black;}
