@@ -2,167 +2,638 @@
    
 
 
-.Atk {
-    border-bottom: 2px solid black;
-}
-.tai {
-    border-bottom: 2px solid black; 
-   
 
+.tai {
+    border-bottom: 1px solid black; 
+    text-align: center;
+    font-size:2vh;
 }
 .Nin{
-    border-bottom: 2px solid black;
-   
+    border-bottom: 
+    1px solid black;
+    font-size:2vh;
+    text-align: center;
 }
 .Buki{
-   
-    border-bottom: 2px solid black;
+    font-size:2vh;
+    text-align: center;
+    border-bottom: 1px solid black;
 }
-.Sta{
-    border-bottom: 2px solid black;   
-   
+.Sta{ text-align: center;
+    border-bottom: 1px solid black;   
+    font-size:2vh;
 }
-.Ele{
-    border-bottom: 2px solid black; 
-   
+.Ele{ text-align: center;
+    border-bottom: 1px solid black; 
+    font-size:2vh;
 }
 .Gen{
-    border-bottom: 2px solid black;  
-   
-
+    border-bottom: 1px solid black;  
+    font-size:2vh;
+    text-align: center;
+}
+.Atk {
+    
+    border-bottom: 1px solid black;
+    font-size:2vh;
+    text-align: center;
 }
 .Strike{
-    border-bottom: 2px solid black;
+    text-align: center;
+    font-size:2vh;
+    border-bottom: 1px solid black;
 }
 .hit{
-    border-bottom: 2px solid black;
+    text-align: center;
+    font-size:2vh;
+    border-bottom: 1px solid black;
 }
 .roll{
-    border-bottom: 2px solid black;
+    text-align: center;
+    font-size:2vh;
+    border-bottom: 1px solid black;
 }
 .Focus{
-    border-bottom: 2px solid black;
+    font-size:2vh;
+    text-align: center;
+    
 }
+
 .Burst{
-    border-bottom: 2px solid black;
+    font-size:2vh;
+    text-align: center;
+    border: 1px solid black;
 }
 .Range{
-    border-bottom: 2px solid black;
+    font-size:2vh;
+    text-align: center;
+    border-bottom: 1px solid black;
 }
 .Boost{
-    border-bottom: 2px solid black;
+    font-size:2vh;
+    text-align: center;
+    border-bottom: 1px solid black;
 }
 
 .Rec{
-    border-bottom: 2px solid black;
+    font-size:2vh;
+    text-align: center;
+    border-bottom: 1px solid black;
 }
 .Act{
-    border-bottom: 2px solid black;
-    height:5%;
+    font-size:2vh;
+    text-align: center;
+    border-bottom: 1px solid black;
+    
 }
 .Mastery{
-    border-bottom: 2px solid black;
+    font-size:2vh;
+    text-align: center;
+    border-bottom: 1px solid black;
 }
 .Rech{
-    border-bottom: 2px solid black;
+    font-size:2vh;
+    text-align: center;
+    border-bottom: 1px solid black;
 }
 .Endu{
+    font-size:2vh;
     border-bottom: 2px solid black;
 }
 .The-Stats{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction:column;
-     width:200%;
-    
+    border:1px solid black;
+    display: grid;
+    position: relative;
+    justify-content: center;
     background-color: blue;
-    top:300%;
-    left:-3%;
-    border-bottom: 2px solid black;
+    top:35.39vh;
+    right:-15.32vw;
+    font-size:2vh;
+    width:11vw;
 }
-#txt {
-    background-color:firebrick;
-    left:-85%;
-    top:122%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction:column;
+ #txt {
+    background-color:turquoise;
+    right:-4.2vw;
+    top:37.92vh;
+    height:89vh;
+    justify-content: center;
     position:relative;
-    width:auto;
-    height:a;
-    font-size:auto;
-}
+    display:grid;
+    grid-template-columns:;
+    grid-column:auto;
+} 
 
 
 .qq {
     position:relative;
     background-color: hotpink;
-    text-align:center;
-    top:92%;
-    right:49%;
-    width:35%;
+     justify-content: center;
+    right:3.69vw;
+    top:0vh;
+    font-size:2vh;
+    border:1px solid black;
+    border-bottom: 0px;
 }
 .used{ 
-    background-color: indigo;
+    background-color: hotpink;
     position: relative;
+    top:0vh;
+    right:3.69vw;
     display:flex;
+     justify-content: center;
      flex-wrap:wrap;
-    top:92%;
-    right:49%;
-    width:35%;
+     font-size:2vh;
+    border:solid 1px black;
+    border-top: 0px;
 }
   .Statpoints-Point{
     background-color: teal;
     position:relative;
-     display:flex;
-      flex-wrap:wrap;
-      top:122%;
-      right:84%;
-      flex-direction:column;
-      width:207px;
+       border:solid 1px black; 
+      top:14.9vh;
+      left:61.30vw;
+       justify-content: center;
+      
+      font-size:2vh;
      }
   .statnames{
+    justify-content: center;
     position:relative;
-    display:flex;
-     flex-wrap:wrap;
-      border-bottom:2px solid black;
+    display:grid;
+    grid-template-columns:2vw;
+    grid-column:auto;
+      border-bottom:1px solid black;
     background-color: rgb(77, 15, 15);
-    right:85%;
-    top:137%;
+    right:-4.2vW;
+    top:28vh;
+    font-size:2vh; 
+    width:3vw;
+    justify-items: center;
     
     
      }
 #Secondary {
     position: relative;
-    background-color: green;
-   display:flex;
-    border-bottom: 2px solid black;
-    flex-direction: column;
+    background-color: rgb(77, 15, 15);
+    grid-template-columns:2vw;
+   grid-column:auto;
+    top:52.1vh;
+   right:3.2vw;
+   width:3vw;
+   font-size:2vh; 
+   justify-items: center;
+}
+
+.ID{
+    position: relative;
+    display: grid;
+    top:20vh;
+right:10vw;
+}
+.fixed{
+    position: relative;
+    display: grid;
+    top:20vh;
+    right:10vw;
+}
+
+
+
+
+
+
+#g3 { display:flex;
     flex-wrap:wrap;
-   top:233%;
-   right:91.5%;
+    position: relative;
+    background-color: teal;
+top:60vh;
+left:60vw;
+width:;
 }
-.s01{
-    border-bottom: 2px solid black;
+
+.S01{  
+    border-bottom: 1px solid black; 
+    position:relative;
+    display:flex;
+     flex-wrap:wrap;
+     top:14.9vh;
+     left:61.3vw;
+      justify-content: center;
+     font-size:2vh;
+     background-color: teal;
+     width:8vw;
+  
+    }
+.s02{border-bottom: 1px solid black; 
+    position:relative;
+    display:flex;
+    flex-wrap:wrap;
+    font-size:2vh;
+    background-color: teal;
+     justify-content: center;
+     top:14.9vh;
+     left:61.3vw;
+    
+     }
+.s03{
+    border-bottom: 1px solid black;
+     position:relative;
+    display:flex;
+    font-size:2vh;
+     flex-wrap:wrap;
+     background-color: teal;
+      justify-content: center;
+      top:42.6vh;
+     left:53.3vw;
+    
+      width:8vw;
+    }
+.s04{    border-bottom: 1px solid black;
+    position:relative;
+    font-size:2vh;
+   display:flex;
+    flex-wrap:wrap;
+    background-color: teal;
+     justify-content: center;
+     top:42.6vh;
+     left:53.3vw;
+    
+   }
+.s05{    border-bottom: 1px solid black;
+    position:relative;
+   display:flex;
+   font-size:2vh;
+    flex-wrap:wrap;
+    background-color: teal;
+     justify-content: center;
+     top:42.6vh;
+     left:53.3vw;
+    
+   }
+.s06{border-bottom: 1px solid black;
+    position:relative;
+   display:flex;
+   font-size:2vh;
+    flex-wrap:wrap;
+    background-color: teal;
+     justify-content: center;
+     top:42.6vh;
+     left:53.3vw;
+    
 }
-.s02{
-    border-bottom: 2px solid black;
+.s07{border-bottom: 1px solid black;
+    position:relative;
+   display:flex;
+   font-size:2vh;
+    flex-wrap:wrap;
+    background-color: teal;
+     justify-content: center;
+     top:42.6vh;
+     left:53.3vw;
+    ;}
+.s08{border-bottom: 1px solid black;
+    position:relative;
+   display:flex;
+   font-size:2vh;
+    flex-wrap:wrap;;
+    background-color: teal;
+     justify-content: center;
+     top:42.6vh;
+     left:53.3vw;
+    }
+.s09{border-bottom: 1px solid black;
+    position:relative;
+   display:flex;
+    flex-wrap:wrap;
+    font-size:2vh;
+    background-color: teal;
+     justify-content: center;
+     top:42.6vh;
+     left:53.3vw;
+    }
+.s10{border-bottom: 1px solid black;
+    position:relative;
+   display:flex;
+   font-size:2vh;
+    flex-wrap:wrap;
+    background-color: teal;
+     justify-content: center;
+     top:42.6vh;
+     left:53.3vw;
+    }
+.s11{border-bottom: 1px solid black;
+    position:relative;
+   display:flex;
+   font-size:2vh;
+    flex-wrap:wrap;;
+    background-color: teal;
+     justify-content: center;
+     top:42.6vh;
+     left:53.3vw;
+    }
+.s12{border-bottom: 1px solid black;
+    position:relative;
+   display:flex;
+   font-size:2vh;
+    flex-wrap:wrap;
+    background-color: teal;
+     justify-content: center;
+     top:42.6vh;
+     left:53.3vw;
+    }
+.s13{border-bottom: 1px solid black;
+    position:relative;
+   display:flex;
+   font-size:2vh;
+    flex-wrap:wrap;
+    background-color: teal;
+     justify-content: center;
+     top:42.6vh;
+     left:53.3vw;
+    ;}
+.s14{border-bottom: 1px solid black;
+    position:relative;
+   display:flex;
+   font-size:2vh;
+    flex-wrap:wrap;;
+    background-color: teal;
+     justify-content: center;
+     top:42.6vh;
+     left:53.3vw;
+    ;}
+     
+.s15{border-bottom: 1px solid black;
+    position:relative;
+   display:flex;
+   font-size:2vh;
+    flex-wrap:wrap;
+    background-color: teal;
+   justify-content: center;
+   top:71.2vh;
+   left:45.3vw;
+  }
+    
+.s16{ border-bottom: 1px solid black;
+    position:relative;
+   display:flex;
+   font-size:2vh;
+    flex-wrap:wrap;
+    background-color: teal;
+     justify-content: center;
+     top:71.2vh;
+     left:45.3vw;
+    
+    width:8vw;
 }
-.s03{ border-bottom: 2px solid black;}
-.s04{ border-bottom: 2px solid black;}
-.s05{ border-bottom: 2px solid black;}
-.s06{ border-bottom: 2px solid black;}
-.s07{ border-bottom: 2px solid black;}
-.s08{ border-bottom: 2px solid black;}
-.s09{ border-bottom: 2px solid black;}
-.s10{ border-bottom: 2px solid black;}
-.s11{ border-bottom: 2px solid black;}
-.s12{ border-bottom: 3px solid black;}
-.s13{ border-bottom: 2px solid black;}
-.s14{ border-bottom: 2px solid black;}
-.s15{ border-bottom: 2px solid black;}
-.s16{ border-bottom: 2px solid black;}
-.s17{ border-bottom: 2px solid black;}
-.s18{ border-bottom: 2px solid black;}
-.s19{ border-bottom: 2px solid black;}
-.s20{ border-bottom: 2px solid black;}
+.s17{border-bottom: 1px solid black;
+    position:relative;
+   display:flex;
+    flex-wrap:wrap;
+    font-size: 2vh;
+    background-color: teal;
+     justify-content: center;
+     top:71.2vh;
+     left:45.3vw;
+    
+    width:8vw;
+    }
+.s18{border-bottom: 1px solid black;
+    position:relative;
+   display:flex;
+   font-size:2vh;
+    flex-wrap:wrap;
+     background-color: teal; 
+     justify-content: center;
+     top:71.2vh;
+     left:45.3vw;
+    
+    width:8vw;
+    }
+.s19{border-bottom: 1px solid black;
+    position:relative;
+   display:flex;
+    flex-wrap:wrap;
+    background-color: teal;
+     justify-content: center;
+     top:42.6vh;
+     left:53.3vw;}
+.s20{border-bottom: 1px solid black;
+    position:relative;
+   display:flex;
+    flex-wrap:wrap;
+    background-color: teal;
+     justify-content: center;
+     top:42.6vh;
+     left:53.3vw;} 
+
+.Efficantcy{
+    border: 2px solid black;
+    font-size:2vh; 
+    position: relative;
+    display: grid;
+    top:45.4vh;
+    right:11.10vw;
+    text-align: center;
+    background-color: yellowgreen;
+    
+}
+.tai-effi{
+    border-left:2px solid black;
+    border-bottom: 1px solid black;
+    font-size:2vh; 
+    position: relative;
+    display: grid;
+    top:45.28vh;
+    right:11.07vw;
+    text-align: center;
+    background-color: yellowgreen;
+}
+.nin-effi{
+    border-left:2px solid black;
+    border-bottom: 1px solid black;
+    font-size:2vh; 
+    position: relative;
+    display: grid;
+    top:45.28vh;
+    right:11.07vw;
+    text-align: center;
+    background-color: yellowgreen;
+}
+.buki-effi{
+    border-left:2px solid black;
+    border-bottom: 1px solid black;
+    font-size:2vh; 
+    position: relative;
+    display: grid;
+     top:45.28vh;
+    right:11.07vw;
+    text-align: center;
+    background-color: yellowgreen;
+}
+.Stam-effi{
+    border-left:2px solid black;
+    border-bottom: 1px solid black;
+    font-size:2vh; 
+    position: relative;
+    display: grid;
+     top:45.28vh;
+    right:11.07vw;
+    text-align: center;
+    background-color: yellowgreen;
+}
+.ele-effi{
+    border-left:2px solid black;
+    border-bottom: 1px solid black;
+    font-size:2vh; 
+    position: relative;
+    display: grid;
+     top:45.28vh;
+    right:11.07vw;
+    text-align: center;
+    background-color: yellowgreen;
+}
+.gen-effi{
+    border-left:2px solid black;
+    border-bottom: 1px solid black;
+    font-size:2vh; 
+    position: relative;
+    display: grid;
+     top:45.28vh;
+    right:11.07vw;
+    text-align: center;
+    background-color: yellowgreen;
+}
+.atk-effi{
+    border-left:2px solid black;
+    border-bottom: 1px solid black;
+    font-size:2vh; 
+    position: relative;
+    display: grid;
+     top:45.28vh;
+    right:11.07vw;
+    text-align: center;
+    background-color: yellowgreen;
+}
+.strike-effi{
+    border-left:2px solid black;
+    border-bottom: 1px solid black;
+    font-size:2vh; 
+    position: relative;
+    display: grid;
+     top:45.28vh;
+    right:11.07vw;
+    text-align: center;
+    background-color: yellowgreen;
+}
+.hit-effi{
+    border-left:2px solid black;
+    border-bottom: 1px solid black;
+    font-size:2vh; 
+    position: relative;
+    display: grid;
+     top:45.28vh;
+    right:11.07vw;
+    text-align: center;
+    background-color: yellowgreen;
+}
+.reroll-effi{
+    border-left:2px solid black;
+    border-bottom: 1px solid black;
+    font-size:2vh; 
+    position: relative;
+    display: grid;
+     top:45.28vh;
+    right:11.07vw;
+    text-align: center;
+    background-color: yellowgreen;
+}
+.boost-effi{
+    border-left:2px solid black;
+    border-bottom: 1px solid black;
+    font-size:2vh; 
+    position: relative;
+    display: grid;
+     top:45.28vh;
+    right:11.07vw;
+    text-align: center;
+    background-color: yellowgreen;
+}
+.buki-rec-effi{
+    border-left:2px solid black;
+    border-bottom: 1px solid black;
+    font-size:2vh; 
+    position: relative;
+    display: grid;
+     top:45.28vh;
+    right:11.07vw;
+    text-align: center;
+    background-color: yellowgreen;
+}
+.gen-act-effi{
+    border-left:2px solid black;
+    border-bottom: 1px solid black;
+    font-size:2vh; 
+    position: relative;
+    display: grid;
+     top:45.28vh;
+    right:11.07vw;
+    text-align: center;
+    background-color: yellowgreen;
+}
+.gen-mastery-effi{
+    border-left:2px solid black;
+    border-bottom: 1px solid black;
+    font-size:2vh; 
+    position: relative;
+    display: grid;
+     top:45.28vh;
+    right:11.07vw;
+    text-align: center;
+    background-color: yellowgreen;
+}
+.gen-rec-effi{
+    border-left:2px solid black;
+    border-bottom: 1px solid black;
+    font-size:2vh; 
+    position: relative;
+    display: grid;
+     top:45.28vh;
+    right:11.07vw;
+    text-align: center;
+    background-color: yellowgreen;
+}
+.focus-effi{
+      border-left:2px solid black;
+    border-bottom: 1px solid black;
+    font-size:2vh; 
+    position: relative;
+    display: grid;
+     top:45.28vh;
+    right:11.07vw;
+    text-align: center;
+    background-color: yellowgreen;
+}
+
+.focus-burst{
+      border-left:2px solid black;
+    border-bottom: 1px solid black;
+    font-size:2vh; 
+    position: relative;
+    display: grid;
+     top:45.28vh;
+    right:11.07vw;
+    text-align: center;
+    background-color: yellowgreen;
+}
+
+.focus-range{
+      border-left:2px solid black;
+    border-bottom: 1px solid black;
+    font-size:2vh; 
+    position: relative;
+    display: grid;
+     top:45.28vh;
+    right:11.07vw;
+    text-align: center;
+    background-color: yellowgreen;
+}
