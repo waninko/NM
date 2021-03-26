@@ -106,21 +106,22 @@
     position: relative;
     justify-content: center;
     background-color: blue;
-    top:35.39vh;
-    right:-15.32vw;
+    top:35.5vh;
+    left:24.23vw;
     font-size:2vh;
-    width:11vw;
+    width:11.1vw;
+    height: 2.3vh;
 }
  #txt {
     background-color:turquoise;
-    right:-4.2vw;
-    top:37.92vh;
+    right:-13.1vw;
+    top:37.8vh;
     height:89vh;
     justify-content: center;
     position:relative;
     display:grid;
-    grid-template-columns:;
-    grid-column:auto;
+    
+    
 } 
 
 
@@ -151,9 +152,9 @@
     position:relative;
        border:solid 1px black; 
       top:14.9vh;
-      left:61.30vw;
+      left:70.24vw;
        justify-content: center;
-      
+      height: 2.22vh;
       font-size:2vh;
      }
   .statnames{
@@ -164,8 +165,8 @@
     grid-column:auto;
       border-bottom:1px solid black;
     background-color: rgb(77, 15, 15);
-    right:-4.2vW;
-    top:28vh;
+    right:-13.07vW;
+    top:27.8vh;
     font-size:2vh; 
     width:3vw;
     justify-items: center;
@@ -178,7 +179,7 @@
     grid-template-columns:2vw;
    grid-column:auto;
     top:52.1vh;
-   right:3.2vw;
+   right:-5.7vw;
    width:3vw;
    font-size:2vh; 
    justify-items: center;
@@ -207,17 +208,27 @@ right:10vw;
     position: relative;
     background-color: teal;
 top:60vh;
-left:60vw;
-width:;
-}
+left:6vw;
 
+}
+.position{
+    display:flex;
+  flex-wrap: wrap;
+  position: relative;
+  left:15.33vw;
+  bottom:17.6vh;
+  background-color: brown;
+  width:5.7vw;
+  height:8vh;
+  
+}
 .S01{  
     border-bottom: 1px solid black; 
     position:relative;
     display:flex;
      flex-wrap:wrap;
      top:14.9vh;
-     left:61.3vw;
+     left:70.28vw;
       justify-content: center;
      font-size:2vh;
      background-color: teal;
@@ -232,7 +243,7 @@ width:;
     background-color: teal;
      justify-content: center;
      top:14.9vh;
-     left:61.3vw;
+     left:70.28vw;
     
      }
 .s03{
@@ -243,8 +254,8 @@ width:;
      flex-wrap:wrap;
      background-color: teal;
       justify-content: center;
-      top:42.6vh;
-     left:53.3vw;
+      top:42.5vh;
+    left:62.26vw;
     
       width:8vw;
     }
@@ -255,8 +266,8 @@ width:;
     flex-wrap:wrap;
     background-color: teal;
      justify-content: center;
-     top:42.6vh;
-     left:53.3vw;
+    top:42.5vh;
+     left:62.26vw;
     
    }
 .s05{    border-bottom: 1px solid black;
@@ -266,8 +277,8 @@ width:;
     flex-wrap:wrap;
     background-color: teal;
      justify-content: center;
-     top:42.6vh;
-     left:53.3vw;
+    top:42.5vh;
+     left:62.26vw;
     
    }
 .s06{border-bottom: 1px solid black;
@@ -277,8 +288,8 @@ width:;
     flex-wrap:wrap;
     background-color: teal;
      justify-content: center;
-     top:42.6vh;
-     left:53.3vw;
+    top:42.5vh;
+     left:62.26vw;
     
 }
 .s07{border-bottom: 1px solid black;
@@ -288,8 +299,8 @@ width:;
     flex-wrap:wrap;
     background-color: teal;
      justify-content: center;
-     top:42.6vh;
-     left:53.3vw;
+    top:42.5vh;
+     left:62.26vw;
     ;}
 .s08{border-bottom: 1px solid black;
     position:relative;
@@ -298,8 +309,8 @@ width:;
     flex-wrap:wrap;;
     background-color: teal;
      justify-content: center;
-     top:42.6vh;
-     left:53.3vw;
+    top:42.5vh;
+     left:62.26vw;
     }
 .s09{border-bottom: 1px solid black;
     position:relative;
@@ -308,8 +319,8 @@ width:;
     font-size:2vh;
     background-color: teal;
      justify-content: center;
-     top:42.6vh;
-     left:53.3vw;
+    top:42.5vh;
+     left:62.26vw;
     }
 .s10{border-bottom: 1px solid black;
     position:relative;
@@ -318,8 +329,8 @@ width:;
     flex-wrap:wrap;
     background-color: teal;
      justify-content: center;
-     top:42.6vh;
-     left:53.3vw;
+    top:42.5vh;
+     left:62.26vw;
     }
 .s11{border-bottom: 1px solid black;
     position:relative;
@@ -328,8 +339,8 @@ width:;
     flex-wrap:wrap;;
     background-color: teal;
      justify-content: center;
-     top:42.6vh;
-     left:53.3vw;
+    top:42.5vh;
+     left:62.26vw;
     }
 .s12{border-bottom: 1px solid black;
     position:relative;
@@ -338,8 +349,8 @@ width:;
     flex-wrap:wrap;
     background-color: teal;
      justify-content: center;
-     top:42.6vh;
-     left:53.3vw;
+    top:42.5vh;
+     left:62.26vw;
     }
 .s13{border-bottom: 1px solid black;
     position:relative;
@@ -348,8 +359,8 @@ width:;
     flex-wrap:wrap;
     background-color: teal;
      justify-content: center;
-     top:42.6vh;
-     left:53.3vw;
+    top:42.5vh;
+     left:62.26vw;
     ;}
 .s14{border-bottom: 1px solid black;
     position:relative;
@@ -358,8 +369,8 @@ width:;
     flex-wrap:wrap;;
     background-color: teal;
      justify-content: center;
-     top:42.6vh;
-     left:53.3vw;
+    top:42.5vh;
+     left:62.26vw;
     ;}
      
 .s15{border-bottom: 1px solid black;
@@ -369,8 +380,8 @@ width:;
     flex-wrap:wrap;
     background-color: teal;
    justify-content: center;
-   top:71.2vh;
-   left:45.3vw;
+   top:71.1vh;
+   left:54.26vw;
   }
     
 .s16{ border-bottom: 1px solid black;
@@ -380,8 +391,8 @@ width:;
     flex-wrap:wrap;
     background-color: teal;
      justify-content: center;
-     top:71.2vh;
-     left:45.3vw;
+     top:71.1vh;
+     left:54.28vw;
     
     width:8vw;
 }
@@ -392,8 +403,8 @@ width:;
     font-size: 2vh;
     background-color: teal;
      justify-content: center;
-     top:71.2vh;
-     left:45.3vw;
+     top:71.1vh;
+     left:54.26vw;
     
     width:8vw;
     }
@@ -404,8 +415,8 @@ width:;
     flex-wrap:wrap;
      background-color: teal; 
      justify-content: center;
-     top:71.2vh;
-     left:45.3vw;
+     top:71.1vh;
+     left:54.26vw;
     
     width:8vw;
     }
@@ -415,7 +426,7 @@ width:;
     flex-wrap:wrap;
     background-color: teal;
      justify-content: center;
-     top:42.6vh;
+    top:42.5vh;
      left:53.3vw;}
 .s20{border-bottom: 1px solid black;
     position:relative;
@@ -432,9 +443,10 @@ width:;
     position: relative;
     display: grid;
     top:45.4vh;
-    right:11.10vw;
+    right:11.05vw;
     text-align: center;
     background-color: yellowgreen;
+    height:2vh;
     
 }
 .tai-effi{

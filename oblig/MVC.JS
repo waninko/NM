@@ -30,6 +30,7 @@ const Ninjas =[
     "NinjaID": 267,
     "Identifier": "madara-rinne-sharingan-kage",
     "NinjaName": "madara"
+ 
 },
   {
     "Chakra": 10,
@@ -62,7 +63,8 @@ const Ninjas =[
     "FixedChakra": true,
     "NinjaID": 408,
     "Identifier": "kurenai-fn-genin",
-    "NinjaName": "kurenai"
+    "NinjaName": "kurenai",
+    file: 'kurenaifngeninb.jpg'
   },
     {
       "Chakra": 20,
@@ -105,7 +107,8 @@ const Ninjas =[
       "FixedChakra": true,
       "NinjaID": 365,
       "Identifier": "konan-fn-jounin",
-      "NinjaName": "konan"
+      "NinjaName": "konan",
+      file: 'konanfnjounin.jpg'
       
       
     },

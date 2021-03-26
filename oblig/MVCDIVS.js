@@ -5,18 +5,19 @@
         //mellomlagre id osv i hver sin - dollare ut i viewloop
       for(let option of Ninjas){ //gir muligheten til og dra ut single string av en flere objektet arrey
             if(option.NinjaName == selectedNinja){
-                 html += `<div Class=Cost>Cost</div>`
+
+                html += `<div Class=Cost>Cost</div>`
                 html += `<div Class=chakra>${option.Chakra}</div>`
                 
                 html += `<div Class=quarter1>can be quartered?: </div>`
-                 html += `<div Class=NY> ${option.Forbidden}</div>`
-                 html += `<div Class=quarter2>can be quartered?: </div>`
-                 html += `<div Class=YN>${option.FixedChakra}</div>`
+                html += `<div Class=NY> ${option.Forbidden}</div>`
+                html += `<div Class=quarter2>can be quartered?: </div>`
+                html += `<div Class=YN>${option.FixedChakra}</div>`
                 html += `<div Class=qq>Stats+Used</div>`
                 html += `<div Class=used> auto input </div>`
 
-
-          html += `</div>`;
+                html +=`<div class=img><img src="${option.file}"</div>`;
+                html += `</div>`;
                 html += `<div class=Statpoints-Point><b>Statspoint</b></div> `;
                 html += `<div Class=s01>tai in</div>`
                 html += `<div Class=s02> nin in</div>`
@@ -41,7 +42,7 @@
                 // html += `<div Class=s21>in</div>`
                 // html += `<div Class=s22>in</div>`
                 html += `</div>`;
-          html += `</div>`;
+                html += `</div>`;
 
                 html += `<div id="selectResult">`;
                 html += `<div Class=avrdmg>Avrage dmg :in</div>`
@@ -129,22 +130,22 @@
                 html += `</div>`;
 
                 //}
-            html+= `<div Class=ID>Identifier ${option.Identifier}</div>`
-            html+= `<div class= NinjaName > ${option.NinjaName}</div>`
-            html+= `<div class=lvl>LVL</div>`
-            let currentAbility = "";
-        //     for(Ability in option.Ability){
-        //         currentAbility =Ability;
-        //     html+= `<div>Ability ${option.Ability[Ability]}</div>`
-        // }
-         html+=`<div class=fixed>fixed Chakra?: ${option.FixedChakra}</div>`
+                html+= `<div Class=ID>Identifier ${option.Identifier}</div>`
+                html+= `<div class= NinjaName > ${option.NinjaName}</div>`
+                html+= `<div class=lvl>LVL</div>`
+                let currentAbility = "";
+                 //     for(Ability in option.Ability){
+                 //         currentAbility =Ability;
+                 //     html+= `<div>Ability ${option.Ability[Ability]}</div>`
+                 // }
+                html+=`<div class=fixed>fixed Chakra?: ${option.FixedChakra}</div>`
 
 
 
 
-         html += `</div>`;
+            html += `</div>`;
 
-        html+=`<input type="text" id="LVL" /><br> <input class="button" type="button" onClick="multiplyBy()" Value="LVL" />`
+          html+=`<input type="text" id="LVL" /><br> <input class="button" type="button" onClick="multiplyBy()" Value="LVL" />`
           html+=`<div ID="rsesult"> </div>`
 
           html += `<div ID="Effi">` 
@@ -170,7 +171,12 @@
          
           
 
-        //   html += `</div>`;
+          html += `</div>`;
+          html +=`<div class=is-off">is off pos</div>`
+          html +=`<div class=Y-N">Yes or No</div>`
+          html +=`<div class=offpos">Offpos</div>`
+          html +=`<div class=Pen"></div>`
+          html +=`<div class=penalty"> pen %</div>`
         selectResult.innerHTML =  html;
 
     }

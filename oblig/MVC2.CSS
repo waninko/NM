@@ -205,13 +205,18 @@ input{
     font-size:16px;
  
   }
+
+  .ninjaImg{
+    display: grid;
+    position: relative;
+  }
   .bloodline{
     position:relative;
     font-size:2vh;
    border-top: 2px solid black;
     background-color: crimson;
-    top:15.5vh;
-     right:77.9vw;
+    right:-1.8vw;
+     top:30.5vh;
     
     
 
@@ -221,8 +226,8 @@ input{
     font-size:2vh;
     border-bottom: 2px solid black;
      background-color: crimson;
-     top:15.5vh;
-     right:77.9vw;
+     right:-1.8vw;
+     top:30.5vh;
      
   }
   .Blood-line{
@@ -230,8 +235,8 @@ input{
     font-size:2vh;
     border: 1px solid black;
      background-color: crimson;
-     right:70.5vw;
-     top:10.6vh;
+      right:-8.8vw;
+     top:25.6vh;
      
   }
   .Blood-Line-LvL{
@@ -239,8 +244,8 @@ input{
     font-size:2vh;
     border:1px solid black;
      background-color: crimson;
-     right:70.5vw;
-     top:10.6vh;
+     right:-8.8vw;
+     top:25.6vh;
      
   }
 #Effi {
@@ -248,8 +253,8 @@ input{
   font-size:2vh; 
   position: relative;
   display: grid;
-  bottom:10vh;
-  right:1vw;
+  bottom:09.9vh;
+  right:-7.85vw;
   grid-template-rows:auto;
   grid-template-columns:auto;
   grid-column:auto;
