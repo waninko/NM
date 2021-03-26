@@ -21,6 +21,6 @@
            "GenjutsuActivation": 30,
            "Death": 20,
             "Bloodline Exp": 1,
-            file:'https://github.com/devapath89/NM/blob/main/oblig/Img/Dracolich'sPhylatery.png?raw=true'
+            file:'https://github.com/devapath89/NM/blob/main/oblig/Img/DracolichsPhylatery.png?raw=true'
         }
         }
