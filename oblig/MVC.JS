@@ -64,7 +64,7 @@ const Ninjas =[
     "NinjaID": 408,
     "Identifier": "kurenai-fn-genin",
     "NinjaName": "kurenai",
-    file: 'kurenaifngeninb.jpg'
+    file: 'https://github.com/devapath89/NM/blob/main/oblig/Img/kurenaifngeninb.jpg?raw=true'
   },
     {
       "Chakra": 20,
@@ -108,7 +108,7 @@ const Ninjas =[
       "NinjaID": 365,
       "Identifier": "konan-fn-jounin",
       "NinjaName": "konan",
-      file: 'konanfnjounin.jpg'
+      file: 'https://github.com/devapath89/NM/blob/main/oblig/Img/konanfnjounin.jpg?raw=true'
       
       
     },
