@@ -30,22 +30,22 @@
 var hovedSide = document.getElementById('hovedSide');
 var selectResult = document.getElementById('selectResult')
 
-updateViewItem ()
+// updateViewItem ()
 
 
-// MakeDropDown();
-// selectNinja(); // KOMMENTER UT DENNE NÅR DU IKKE VIL HA FERDIG VALGT NINJA
-// function MakeDropDown() {
-//         let html = `<select onchange="selectNinja(this.value)">` ; 
-//             // console.log("make dropdown kjører")
-//         for(let ninja of Ninjas){
-//           html +=  `<option >${ninja.NinjaName}</option>`
-//         }
-//         html += '</select>'
-        
-//         hovedSide.innerHTML = html;
-       
-//     }
+ MakeDropDown();
+ selectNinja(); // KOMMENTER UT DENNE NÅR DU IKKE VIL HA FERDIG VALGT NINJA
+ function MakeDropDown() {
+         let html = `<select onchange="selectNinja(this.value)">` ; 
+             // console.log("make dropdown kjører")
+         for(let ninja of Ninjas){
+           html +=  `<option >${ninja.NinjaName}</option>`
+         }
+         html += '</select>'
+      
+         hovedSide.innerHTML = html;
+     
+     }
     // for(let Secondary of SecondaryStats){
     //     html += `<div> 
     // }
