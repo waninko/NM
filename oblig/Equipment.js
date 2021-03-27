@@ -44,7 +44,7 @@ const Equipments = {
             "paper-shuriken",{
                 Nin:4,
                 Buki:8,
-                link:''},
+                link:'https://github.com/devapath89/NM/blob/main/oblig/Img/Papershurikent.png?raw=true'},
             "paper-chakram",{
                 Nin:6,
                 Buki:10,
@@ -54,7 +54,7 @@ const Equipments = {
                 Nin:16,
                 Buki:15,
                 Sta:8,
-                link:''},
+                link:'https://github.com/devapath89/NM/blob/main/oblig/Img/Paper%20clone.png?raw=true'},
             "sacred-paper-emissary",{
                 Nin:10,
                 Buki:10,
