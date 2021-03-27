@@ -13,7 +13,7 @@
     <script src="Secondarystats.JS"></script>
     <script src="Itemview.js"></script>
     <script src="Equipment.js"></script>
-    
+
     
 
 </head>
@@ -33,9 +33,14 @@ var selectResult = document.getElementById('selectResult')
 
 updateViewItem ()
 
+function makeDivs(){
+       let html = ``;
+       //tenge opp stats utifra anvn
+       //mellomlagre id osv i hver sin - dollare ut i viewloop
+     for(let option of Equipments){ //gir muligheten til og dra ut single string av en flere objektet arrey
+           if(option.Equipments == selectedNinja){}
 
-
-   
+     }}
 function selectNinja(clickedNinja) {
         selectedNinja = clickedNinja;
         selectedNinja = 'kurenai'; // KOMMENTER UT DENNE NÅR DU IKKE VIL HA FERDIG VALGT NINJA
