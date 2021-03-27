@@ -125,28 +125,8 @@
 } 
 
 
-.qq {
-    position:relative;
-    background-color: hotpink;
-     justify-content: center;
-    right:3.69vw;
-    top:0vh;
-    font-size:2vh;
-    border:1px solid black;
-    border-bottom: 0px;
-}
-.used{ 
-    background-color: hotpink;
-    position: relative;
-    top:0vh;
-    right:3.69vw;
-    display:flex;
-     justify-content: center;
-     flex-wrap:wrap;
-     font-size:2vh;
-    border:solid 1px black;
-    border-top: 0px;
-}
+
+
   .Statpoints-Point{
     background-color: teal;
     position:relative;

@@ -12,7 +12,8 @@
     <script src="MVCcontroller.js"></script>
     <script src="Secondarystats.JS"></script>
     <script src="Itemview.js"></script>
-   
+    <script src="Equipment.js"></script>
+    
     
 
 </head>
@@ -33,22 +34,7 @@ var selectResult = document.getElementById('selectResult')
 updateViewItem ()
 
 
-// MakeDropDown();
-// selectNinja(); // KOMMENTER UT DENNE NÅR DU IKKE VIL HA FERDIG VALGT NINJA
-// function MakeDropDown() {
-//         let html = `<select onchange="selectNinja(this.value)">` ; 
-//             // console.log("make dropdown kjører")
-//         for(let ninja of Ninjas){
-//           html +=  `<option >${ninja.NinjaName}</option>`
-//         }
-//         html += '</select>'
-        
-//         hovedSide.innerHTML = html;
-       
-//     }
-    // for(let Secondary of SecondaryStats){
-    //     html += `<div> 
-    // }
+
    
 function selectNinja(clickedNinja) {
         selectedNinja = clickedNinja;
@@ -56,12 +42,6 @@ function selectNinja(clickedNinja) {
         makeDivs();
     }
    
-//view 
-// updateView();
-// function updateView(){
-//     let html = '';
-// document.getElementById('hovedSide').innerHTML = html;/
-// }
 
 </script>
 </body>

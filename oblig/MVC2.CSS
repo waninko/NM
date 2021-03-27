@@ -1,27 +1,25 @@
-html, body {
-    padding: 0;
-    margin: 0;
-    height: 100vh;
-    width: 100vw;
-    display: block;
-    display: flex;
-   box-sizing: border-box;
-   border:5px solid violet;   
-  
 
- }
+
+ 
  #hovedside { top:6vh;   /* dropdownbar*/
   position: relative;
   left: 45vw;
 height:1vh;
 }
 
+.ninjaImg{
+  display: grid;
+  position:relative;
+  top:0vh;
+  right:3.7vw;
+  
+}
 .Cost {
   background-color: burlywood;
   display:flex;
   flex-wrap: wrap;
   position: relative;
-  right:3.7vw;
+  right:vw;
   font-size:2vh;
   border-bottom: 4px  solid black ;
   
@@ -32,7 +30,7 @@ height:1vh;
   flex-wrap: wrap;
   position: relative;
   top:0vh; 
-  right:3.70vw;
+  
   font-size:2vh;
   border: 2px dotted blue;
   justify-content: center;
@@ -41,7 +39,7 @@ height:1vh;
   position: relative;
    display:flex;
    flex-wrap:wrap;
-   right:3.7vw;
+  
    border:1px solid black;
    font-size:2vh;
  }
@@ -50,7 +48,7 @@ height:1vh;
   display:flex;
   flex-wrap:wrap;
     top:0.1vh;
-    right:3.7vw;
+   
     justify-content: center;
     font-size:2vh;
     border:2px dotted hotpink;
@@ -60,8 +58,7 @@ height:1vh;
   position: relative;
   display:flex;
   flex-wrap:wrap;
-  top:vh;
-  right:3.72vw;
+  
   font-size:2vh;
   border:1px solid black;
 }
@@ -206,10 +203,7 @@ input{
  
   }
 
-  .ninjaImg{
-    display: grid;
-    position: relative;
-  }
+
   .bloodline{
     position:relative;
     font-size:2vh;

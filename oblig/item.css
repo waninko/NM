@@ -1,0 +1,33 @@
+
+
+
+
+
+.grid-container {
+  display: grid;
+  position: relative;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  border: 1px solid black;
+right: 40vw;
+width:;
+}
+
+.ItemTg1 { grid-area: 1 / 1 / 2 / 2; 
+border: 1px solid black;}
+
+.item1 { grid-area: 1 / 2 / 2 / 3; }
+
+.ItemTg2 { grid-area: 2 / 1 / 3 / 2; }
+
+.Item2 { grid-area: 2 / 2 / 3 / 3; }
+
+.ItemTg3 { grid-area: 3 / 1 / 4 / 2; }
+
+.Item3 { grid-area: 3 / 2 / 4 / 3; }
+
+.ItemTg { grid-area: 1 / 1 / 4 / 2; }
+
+.ItemEq { grid-area: 1 / 2 / 4 / 3; }
+

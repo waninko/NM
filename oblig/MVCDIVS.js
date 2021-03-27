@@ -5,19 +5,18 @@
         //mellomlagre id osv i hver sin - dollare ut i viewloop
       for(let option of Ninjas){ //gir muligheten til og dra ut single string av en flere objektet arrey
             if(option.NinjaName == selectedNinja){
-
+                
+                html +=`<div class=ninjaImg><img src="${option.file}"</div>`;
                 html += `<div Class=Cost>Cost</div>`
                 html += `<div Class=chakra>${option.Chakra}</div>`
-                
                 html += `<div Class=quarter1>can be quartered?: </div>`
                 html += `<div Class=NY> ${option.Forbidden}</div>`
                 html += `<div Class=quarter2>can be quartered?: </div>`
                 html += `<div Class=YN>${option.FixedChakra}</div>`
                 html += `<div Class=qq>Stats+Used</div>`
                 html += `<div Class=used> auto input </div>`
-
-                html +=`<div class=img><img src="${option.file}"</div>`;
                 html += `</div>`;
+
                 html += `<div class=Statpoints-Point><b>Statspoint</b></div> `;
                 html += `<div Class=s01>tai in</div>`
                 html += `<div Class=s02> nin in</div>`
@@ -134,10 +133,10 @@
                 html+= `<div class= NinjaName > ${option.NinjaName}</div>`
                 html+= `<div class=lvl>LVL</div>`
                 let currentAbility = "";
-                 //     for(Ability in option.Ability){
-                 //         currentAbility =Ability;
-                 //     html+= `<div>Ability ${option.Ability[Ability]}</div>`
-                 // }
+                     for(Ability in option.Ability){
+                          currentAbility =Ability;
+                     html+= `<div>Ability ${option.Ability[Ability]}</div>`
+                  }
                 html+=`<div class=fixed>fixed Chakra?: ${option.FixedChakra}</div>`
 
 
@@ -177,6 +176,21 @@
           html +=`<div class=offpos">Offpos</div>`
           html +=`<div class=Pen"></div>`
           html +=`<div class=penalty"> pen %</div>`
+          
+          html +=`<div class=penalty"> pen %</div>`
+                
+  
+           html +=`<div class="grid-container"onclick="updateViewItem()">`
+           html +=`<div class="ItemTg1">Item1</div>`
+           html +=`<div class="item1"onclick="">Item 1 EQ</div>` 
+           html +=`<div class="ItemTg2">Item2</div>`
+           html +=`<div class="Item2">Item 2</div>`
+           html +=`<div class="ItemTg3">item3</div>`
+           html +=`<div class="Item3">Item 3</div>`
+           html +=`<div class="ItemTg"></div>`
+           html +=`<div class="ItemEq"></div>`
+        
+  
         selectResult.innerHTML =  html;
 
     }
