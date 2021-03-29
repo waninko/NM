@@ -1,22 +1,15 @@
 
 
-
-
-
-
-
-
 function updateViewItem(){
     document.getElementById('hovedSide').innerHTML = '' ;
     document.getElementById('selectResult').innerHTML ='';
     let html = '';
-//     function makeDivs(){
-//        let html = ``;
-//        //tenge opp stats utifra anvn
-//        //mellomlagre id osv i hver sin - dollare ut i viewloop
-//      for(let option of Ninjas){ //gir muligheten til og dra ut single string av en flere objektet arrey
-//            if(option.NinjaName == selectedNinja){}
+console.log(Equipments)
+    for(let i = 0; i < Equipments.Ability.length; i++){
+        console.log(i, " test")
 
+    }
+    // :<img src="${Equipments.file}
     
     html += `<div id="Equipments"`
     html +=`<div class="Equip">Item</div>`

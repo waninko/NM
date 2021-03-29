@@ -11,8 +11,9 @@
     <script src="MVCDIVS.js"></script>
     <script src="MVCcontroller.js"></script>
     <script src="Secondarystats.JS"></script>
-    <script src="Itemview.js"></script>
     <script src="Equipment.js"></script>
+    <script src="Itemview.js"></script>
+
 
     
 
@@ -31,9 +32,10 @@
 var hovedSide = document.getElementById('hovedSide');
 var selectResult = document.getElementById('selectResult')
 
-updateViewItem ()
+updateViewItem()
 
 function makeDivs(){
+    console.log(Equipments)
        let html = ``;
        //tenge opp stats utifra anvn
        //mellomlagre id osv i hver sin - dollare ut i viewloop
