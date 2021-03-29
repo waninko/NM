@@ -4,9 +4,8 @@ function updateViewItem(){
     document.getElementById('hovedSide').innerHTML = '' ;
     document.getElementById('selectResult').innerHTML ='';
     let html = '';
-console.log(Equipments)
     for(let i = 0; i < Equipments.Ability.length; i++){
-        console.log(i, " test")
+        console.log(Equipments.Ability[i], " test")
 
     }
     // :<img src="${Equipments.file}

@@ -3,20 +3,20 @@ const Equipments = {
 "Ability":{ 
     "light-fang":{
         Attack : 5,
-        file:''},
+        file:'https://github.com/devapath89/NM/blob/main/oblig/Img/Lightfang.jpg?raw=true'},
     "shadow-thunder-blast":{
         Nin: 10,
         Attack : 5,
-        file:''},
+        file:'https://github.com/devapath89/NM/blob/main/oblig/Img/Shadowthunder.png?raw=true'},
     "limbo":{
         Tai:10,
         Nin: 10,
          Attack : 5,
-        file:''},
+        file:'https://github.com/devapath89/NM/blob/main/oblig/Img/Limbo.jpg?raw=true'},
     "divine-genesis":{
         Nin: 30,
         Gen: 30,
-        file:''},
+        file:'https://github.com/devapath89/NM/blob/main/oblig/Img/divinegenesis.jpg?raw=true'},
         "hair-camouflage":{
              Nin: 11,
             file:''},
